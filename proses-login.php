@@ -35,7 +35,7 @@ if ($stmt->num_rows > 0) {
         $_SESSION['username'] = $username;
 
         // arahkan ke halaman dashboard atau halaman utama setelah login
-        header("location: dashboard.html"); 
+        header("location: halaman-utama/contoh.html"); 
         exit(); //selalu gunakan exit() setelah header redirect
     } else {
         // jika password salah
