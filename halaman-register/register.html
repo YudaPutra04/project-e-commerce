@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasar Kreatif - Register</title>
+    <link rel="stylesheet" href="register.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<body>
+    <div class="container">
+        <div class="form-panel">
+            <div class="logo-container">
+                <img src="../logo.jpg" alt="Artisan Logo" class="logo">
+            </div>
+
+            <h1>REGISTER</h1>
+
+            <form action="../proses-register.php" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="enter your username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="enter your email" required>
+
+                <label for="telp">Phone Number</label>
+                <input type="tel" id="telp" name="phone_number" placeholder="enter your phone number" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="enter your password" required>
+
+                <button type="submit">REGISTER</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="overlay-panel">
+        <div class="overlay-content">
+            <h1 class="overlay-h1">Already have an account?</h1>
+            <p>Login and continue your journey with us!</p>
+            <a href="../halaman-login/login.html" class="ghost-button">Sign In</a>
+
+        </div>
+    </div>
+</body>
+</html>
